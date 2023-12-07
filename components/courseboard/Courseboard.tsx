@@ -66,7 +66,7 @@ export const Courseboard: NextPage<propsType> = ({ open, handleOpen }) => {
               alt="logo1"
             />
           </span>
-          <span style={{ fontSize: "3rem" }}>
+          <span className={style.spanText}>
             Electrical Training That Works!
           </span>
         </div>

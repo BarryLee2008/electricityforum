@@ -53,11 +53,10 @@ export const News: NextPage = () => {
         </div>
         <div className={style.smallNews}>
           <Card
-            style={{ height: "100%" }}
             hoverable
             cover={
               <img
-                src="https://www.squamishchamber.com/wp-content/uploads/2018/01/squamish-sunset-1024x427.jpg"
+                src="https://p0.itc.cn/q_70/images03/20201209/0ec605dbdc674bf89d1597f0c770cc5a.jpeg"
                 alt="png"
               />
             }
