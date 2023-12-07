@@ -1,0 +1,31 @@
+.container {
+    width: 100%;
+}
+
+.bignews {
+    width: 100%;
+}
+
+.smallNewsArea {
+    width: 100%;
+    display: flex;
+}
+
+.smallNews {
+    min-width: 0;
+    flex: 1;
+    margin-right: 5px;
+}
+
+.header {
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.read {
+    display: inline-block;
+  margin-top: 5px;
+  color :rgb(212,213,218)
+
+}

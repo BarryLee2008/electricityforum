@@ -1,0 +1,152 @@
+.headerContainer {
+    width: 100%;
+    
+
+}
+
+.headerTop {
+    width: 100%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.479);
+
+}
+
+.headerExternal {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    
+    display: flex;
+}
+
+.headerExternal div {
+    flex: 1;
+    text-align: center;
+    color: rgba(128, 128, 128, 0.589);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-right: 1px rgba(128, 128, 128, 0.541) solid;
+}
+.headerExternal div:hover {
+    cursor: pointer;
+    color: skyblue;
+}
+
+.headerContainer div:last-child{
+    border-right:0px ;
+}
+
+.headerMainBody {
+    width: 100%;
+    background-image: url(https://img.freepik.com/premium-vector/gray-wavy-f…ract-wave-background-vector_206325-933.jpg?w=1380);
+    background-position: center center;
+    background-size: 100% 100%;
+    height: 200px;
+    display: flex;
+    
+}
+.headerLogo {
+    flex: 1;
+    border: 0px;
+    position: relative;
+}
+
+.headerName {
+    flex: 3;
+    border: 0px;
+    position: relative;
+}
+
+.headerAction {
+    border: 0px;
+    flex:1;
+    position: relative;
+    
+    
+}
+.img {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 100px;
+  
+}
+
+.nameContainer {
+    width: 40%;
+    height: 70%;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+
+.name {
+    padding-top: 5px;
+    font-size: 60px;
+    color: black;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.slogan span {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    margin-right: 5px;
+    text-align: center;
+    width: 30%;
+    font-weight: bold;
+    border-right: 1px solid black;
+}
+
+.actionContainer {
+    width: 70%;
+    height: 30%;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+.actionContainer span {
+    display: inline-block;
+    text-align: center;
+}
+.actionContainer {
+    font-weight: bold;
+    margin-right:20px ;
+}
+
+.join {
+    color: navy;
+    margin-right: 20px;
+}
+.join:hover {
+    cursor: pointer;
+    color: skyblue;
+}
+
+.search {
+    margin-left: 10px;
+    border: 1px solid blue;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    padding-top: 2px;
+}
+
+.search:hover {
+    cursor: pointer;
+}
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+    .slogan span {
+        font-size: 0.75rem;
+    }
+}

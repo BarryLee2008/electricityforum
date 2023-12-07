@@ -1,0 +1,9 @@
+.social {
+    width: 30px;
+    position: fixed;
+    top:200px;
+    right: 0px;
+    background-color: rgb(252,108,47);
+    color: white;
+    text-align: center;
+}
